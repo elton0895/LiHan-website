@@ -162,7 +162,7 @@ footer.footer p.footer-link {
 .about-us-investment-religion .content-p {
   position: relative;
   margin-top: 250px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   box-shadow: 1px 5px 40px #000000;
   background: rgba(0, 0, 0, 0.85);
   line-height: 30px;
@@ -172,12 +172,102 @@ footer.footer p.footer-link {
 }
 .about-us-investment-religion .three-features .am-panel {
   background: transparent;
+  border: 1px solid transparent;
+  margin-bottom: 10px;
 }
 .about-us-investment-religion .three-features .am-panel-hd {
-  background: #2d96b1;
+  background: rgba(45, 150, 177, 0.95);
   color: #fff;
 }
 .about-us-investment-religion .three-features .am-panel-bd {
-  background: rgba(0, 0, 0, 0.36);
+  background: rgba(0, 0, 0, 0.8);
   color: #fff;
+}
+.about-us-history .topic-image {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.about-us-history .topic-image img {
+  max-width: 100%;
+}
+.about-us-history .content-p {
+  position: relative;
+  margin-top: 250px;
+  margin-bottom: 20px;
+  box-shadow: 1px 5px 40px #000000;
+  background: rgba(0, 0, 0, 0.85);
+  line-height: 30px;
+}
+.about-us-history .content-p p + p {
+  margin-top: 20px;
+}
+.about-us-history ul.history-line {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  list-style: none;
+  position: relative;
+  min-height: 300px;
+}
+.about-us-history ul.history-line .time-line {
+  width: 5px;
+  min-height: 288px;
+  background: #aaa;
+  position: absolute;
+  left: -3px;
+  top: 10px;
+  z-index: 1;
+}
+.about-us-history ul.history-line li {
+  margin-bottom: 50px;
+  font-size: 20px;
+  position: relative;
+}
+.about-us-history ul.history-line li:before {
+  display: block;
+  content: '';
+  width: 15px;
+  height: 15px;
+  background: #2d96b1;
+  border-radius: 100%;
+  position: absolute;
+  left: -40px;
+  top: 8px;
+  z-index: 10;
+}
+.about-us-product {
+  margin-top: 50px;
+}
+.about-us-product .product-items .am-panel {
+  background: transparent;
+  border: 1px solid transparent;
+  margin-bottom: 10px;
+}
+.about-us-product .product-items .am-panel-hd {
+  background: rgba(45, 150, 177, 0.95);
+  color: #fff;
+}
+.about-us-product .product-items .am-panel-bd {
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+.about-us-product .product-items .am-panel-bd p + p {
+  margin-top: 10px;
+}
+.join-us-join-us .topic-image {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.join-us-join-us .topic-image img {
+  max-width: 100%;
+}
+.join-us-join-us .content-p {
+  position: relative;
+  margin-top: 250px;
+  margin-bottom: 20px;
+  box-shadow: 1px 5px 40px #000000;
+  background: rgba(0, 0, 0, 0.85);
+  line-height: 30px;
+}
+.join-us-join-us .content-p p + p {
+  margin-top: 20px;
 }

@@ -26,7 +26,22 @@ $(function() {
 
 $(document).ready(function() {
   $(window).load(function(){
-    var htmlobj = $.ajax({url:"modules/about-us/investment-religion.html",async:false});
+    var htmlobj = $.ajax({url:"modules/join-us/join-us.html",async:false});
+    $("body").html(htmlobj.responseText);
+  });
+
+  $("#about-us").click(function(){
+    var htmlobj = $.ajax({url:"modules/about-us/company-info.html",async:false});
+    $("body").html(htmlobj.responseText);
+  });
+
+  $("#join-us").click(function(){
+    var htmlobj = $.ajax({url:"modules/join-us/join-us.html",async:false});
+    $("body").html(htmlobj.responseText);
+  });
+
+  $("#login").click(function(){
+    var htmlobj = $.ajax({url:"modules/login/login.html",async:false});
     $("body").html(htmlobj.responseText);
   });
 
@@ -37,6 +52,16 @@ $(document).ready(function() {
 
   $("#about-us-company-info").click(function(){
     var htmlobj = $.ajax({url:"modules/about-us/company-info.html",async:false});
+    $("body").html(htmlobj.responseText);
+  });
+
+  $("#about-us-history").click(function(){
+    var htmlobj = $.ajax({url:"modules/about-us/history.html",async:false});
+    $("body").html(htmlobj.responseText);
+  });
+
+  $("#about-us-product").click(function(){
+    var htmlobj = $.ajax({url:"modules/about-us/product.html",async:false});
     $("body").html(htmlobj.responseText);
   });
 
