@@ -159,3 +159,25 @@ footer.footer p.footer-link {
 .about-us-company-info-box .content-p p + p {
   margin-top: 20px;
 }
+.about-us-investment-religion .content-p {
+  position: relative;
+  margin-top: 250px;
+  margin-bottom: 50px;
+  box-shadow: 1px 5px 40px #000000;
+  background: rgba(0, 0, 0, 0.85);
+  line-height: 30px;
+}
+.about-us-investment-religion .content-p p + p {
+  margin-top: 20px;
+}
+.about-us-investment-religion .three-features .am-panel {
+  background: transparent;
+}
+.about-us-investment-religion .three-features .am-panel-hd {
+  background: #2d96b1;
+  color: #fff;
+}
+.about-us-investment-religion .three-features .am-panel-bd {
+  background: rgba(0, 0, 0, 0.36);
+  color: #fff;
+}

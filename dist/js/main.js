@@ -25,15 +25,24 @@ $(function() {
 
 
 $(document).ready(function() {
+  $(window).load(function(){
+    var htmlobj = $.ajax({url:"modules/about-us/investment-religion.html",async:false});
+    $("body").html(htmlobj.responseText);
+  });
+
   $("#about-us-investment-religion").click(function(){
     var htmlobj = $.ajax({url:"modules/about-us/investment-religion.html",async:false});
     $("body").html(htmlobj.responseText);
   });
 
   $("#about-us-company-info").click(function(){
-    var htmlobj = $.ajax({url:"index.html",async:false});
+    var htmlobj = $.ajax({url:"modules/about-us/company-info.html",async:false});
     $("body").html(htmlobj.responseText);
   });
+
+  //$('.am-panel-title').collapse({
+  //  parent: false
+  //})
 
 
 })
