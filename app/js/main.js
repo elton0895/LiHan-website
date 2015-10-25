@@ -24,7 +24,7 @@ $(function() {
 
 $(document).ready(function() {
   $(window).load(function(){
-    var htmlobj = $.ajax({url:"modules/join-us/join-us.html",async:false});
+    var htmlobj = $.ajax({url:"modules/about-us/company-info.html",async:false});
     $("body").html(htmlobj.responseText);
   });
 
@@ -63,9 +63,46 @@ $(document).ready(function() {
     $("body").html(htmlobj.responseText);
   });
 
-  //$('.am-panel-title').collapse({
-  //  parent: false
-  //})
+  $("#join-us-join-us").click(function(){
+    var htmlobj = $.ajax({url:"modules/join-us/join-us.html",async:false});
+    $("body").html(htmlobj.responseText);
+  });
+
+  $("#join-us-recruitment").click(function(){
+    var htmlobj = $.ajax({url:"modules/join-us/recruitment.html",async:false});
+    $("body").html(htmlobj.responseText);
+  });
+
+  $("#join-us-contact").click(function(){
+    var htmlobj = $.ajax({url:"modules/join-us/contact.html",async:false});
+    $("body").html(htmlobj.responseText);
+  });
+
+  $("#login-login").click(function(){
+    var htmlobj = $.ajax({url:"modules/login/login.html",async:false});
+    $("body").html(htmlobj.responseText);
+  });
+
+  $("#login-register").click(function(){
+    var htmlobj = $.ajax({url:"modules/login/register.html",async:false});
+    $("body").html(htmlobj.responseText);
+  });
+
+  $(".global-header ul li").mouseenter(function() {
+    $(this).addClass("down");
+  });
+
+  $(".global-header ul li").mouseleave(function() {
+    $(this).removeClass("down");
+  })
+
+  $(".sub-header ul li").mouseenter(function() {
+    $(this).addClass("up");
+  });
+
+  $(".sub-header ul li").mouseleave(function() {
+    $(this).removeClass("up");
+  })
 
 
 })
